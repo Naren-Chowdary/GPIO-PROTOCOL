@@ -1,0 +1,15 @@
+{C:/Users/csn4a/OneDrive/Desktop/GPIO_IP/Interface to external IO/tb/tb_interface.v} {1 {vlog -work work -stats=none {C:/Users/csn4a/OneDrive/Desktop/GPIO_IP/Interface to external IO/tb/tb_interface.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_interface
+
+Top level modules:
+	tb_interface
+
+} {} {}} {C:/Users/csn4a/OneDrive/Desktop/GPIO_IP/Interface to external IO/rtl/interface.v} {1 {vlog -work work -stats=none {C:\Users\csn4a\OneDrive\Desktop\GPIO_IP\Interface to external IO\rtl\interface.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module interface
+
+Top level modules:
+	interface
+
+} {} {}}

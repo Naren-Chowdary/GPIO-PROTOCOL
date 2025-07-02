@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/csn4a/OneDrive/Desktop/GPIO_IP/Auxillary Interface/sim
+vinterface
+Z0 !s110 1751282099
+!i10b 1
+!s100 [T3jFT:UfWnc9OB0bIRmN2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IdkZ?bT2=BdRBG=g1d0_a>2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/csn4a/OneDrive/Desktop/GPIO_IP/Interface to external IO/sim
+w1750925039
+8C:\Users\csn4a\OneDrive\Desktop\GPIO_IP\Interface to external IO\rtl\interface.v
+FC:\Users\csn4a\OneDrive\Desktop\GPIO_IP\Interface to external IO\rtl\interface.v
+!i122 2
+L0 1 17
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1751282099.000000
+!s107 C:\Users\csn4a\OneDrive\Desktop\GPIO_IP\Interface to external IO\rtl\interface.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\csn4a\OneDrive\Desktop\GPIO_IP\Interface to external IO\rtl\interface.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vtb_interface
+R0
+!i10b 1
+!s100 49LlBZ`f30=iFKkg[aC[30
+R1
+Ik3IZ]WSb5iGJbB@RTQ7;D1
+R2
+R3
+w1750925100
+8C:/Users/csn4a/OneDrive/Desktop/GPIO_IP/Interface to external IO/tb/tb_interface.v
+FC:/Users/csn4a/OneDrive/Desktop/GPIO_IP/Interface to external IO/tb/tb_interface.v
+!i122 3
+L0 1 62
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/csn4a/OneDrive/Desktop/GPIO_IP/Interface to external IO/tb/tb_interface.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/csn4a/OneDrive/Desktop/GPIO_IP/Interface to external IO/tb/tb_interface.v|
+!i113 1
+R6
+R7

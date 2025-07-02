@@ -1,0 +1,137 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "gpio_data_in[0]",
+					"strict" : false
+				},
+				{
+					"name" : "gpio_data_in[1]",
+					"strict" : false
+				},
+				{
+					"name" : "gpio_data_in[2]",
+					"strict" : false
+				},
+				{
+					"name" : "gpio_data_in[3]",
+					"strict" : false
+				},
+				{
+					"name" : "gpio_data_in[4]",
+					"strict" : false
+				},
+				{
+					"name" : "gpio_data_in[5]",
+					"strict" : false
+				},
+				{
+					"name" : "gpio_data_in[6]",
+					"strict" : false
+				},
+				{
+					"name" : "gpio_data_in[7]",
+					"strict" : false
+				},
+				{
+					"name" : "pad_io[0]",
+					"strict" : false
+				},
+				{
+					"name" : "pad_io[1]",
+					"strict" : false
+				},
+				{
+					"name" : "pad_io[2]",
+					"strict" : false
+				},
+				{
+					"name" : "pad_io[3]",
+					"strict" : false
+				},
+				{
+					"name" : "pad_io[4]",
+					"strict" : false
+				},
+				{
+					"name" : "pad_io[5]",
+					"strict" : false
+				},
+				{
+					"name" : "pad_io[6]",
+					"strict" : false
+				},
+				{
+					"name" : "pad_io[7]",
+					"strict" : false
+				},
+				{
+					"name" : "gpio_data_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "gpio_oe[0]",
+					"strict" : false
+				},
+				{
+					"name" : "gpio_data_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "gpio_oe[1]",
+					"strict" : false
+				},
+				{
+					"name" : "gpio_data_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "gpio_oe[2]",
+					"strict" : false
+				},
+				{
+					"name" : "gpio_data_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "gpio_oe[3]",
+					"strict" : false
+				},
+				{
+					"name" : "gpio_data_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "gpio_oe[4]",
+					"strict" : false
+				},
+				{
+					"name" : "gpio_data_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "gpio_oe[5]",
+					"strict" : false
+				},
+				{
+					"name" : "gpio_data_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "gpio_oe[6]",
+					"strict" : false
+				},
+				{
+					"name" : "gpio_data_out[7]",
+					"strict" : false
+				},
+				{
+					"name" : "gpio_oe[7]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

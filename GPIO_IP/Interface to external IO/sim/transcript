@@ -1,0 +1,17 @@
+# Compile of interface.v was successful.
+# Compile of tb_interface.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_interface
+# vsim -gui work.tb_interface 
+# Start time: 16:45:09 on Jun 30,2025
+# Loading work.tb_interface
+# Loading work.interface
+add wave -position insertpoint sim:/tb_interface/*
+run
+# ** Note: $finish    : C:/Users/csn4a/OneDrive/Desktop/GPIO_IP/Interface to external IO/tb/tb_interface.v(59)
+#    Time: 40 ps  Iteration: 0  Instance: /tb_interface
+# 1
+# Break in Module tb_interface at C:/Users/csn4a/OneDrive/Desktop/GPIO_IP/Interface to external IO/tb/tb_interface.v line 59
+quit -sim
+# End time: 16:46:14 on Jun 30,2025, Elapsed time: 0:01:05
+# Errors: 0, Warnings: 2
