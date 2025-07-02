@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/csn4a/OneDrive/Desktop/GPIO_IP/APB Slave Interface/sim
+vGPIO_register
+!s110 1750925230
+!i10b 1
+!s100 3]3lDfemGSbeg9?NKeL>T3
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I8UHJfzk>h2^;M<BOg]he_1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/csn4a/OneDrive/Desktop/GPIO_IP/GPIO Registers/sim
+w1750409680
+8C:/Users/csn4a/OneDrive/Desktop/GPIO_IP/GPIO Registers/rtl/GPIO.v
+FC:/Users/csn4a/OneDrive/Desktop/GPIO_IP/GPIO Registers/rtl/GPIO.v
+!i122 4
+L0 15 121
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z4 !s108 1750925230.000000
+!s107 C:/Users/csn4a/OneDrive/Desktop/GPIO_IP/GPIO Registers/rtl/GPIO.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/csn4a/OneDrive/Desktop/GPIO_IP/GPIO Registers/rtl/GPIO.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@g@p@i@o_register
+vtb_GPIO_register
+!s110 1750925231
+!i10b 1
+!s100 :4<_8G`4l<^Ka1WI>gog33
+R0
+IV0VUhZUhPohO7?_5jagTc0
+R1
+R2
+w1750409855
+8C:/Users/csn4a/OneDrive/Desktop/GPIO_IP/GPIO Registers/tb/tb_GPIO.v
+FC:/Users/csn4a/OneDrive/Desktop/GPIO_IP/GPIO Registers/tb/tb_GPIO.v
+!i122 5
+L0 1 88
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/csn4a/OneDrive/Desktop/GPIO_IP/GPIO Registers/tb/tb_GPIO.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/csn4a/OneDrive/Desktop/GPIO_IP/GPIO Registers/tb/tb_GPIO.v|
+!i113 1
+R5
+R6
+ntb_@g@p@i@o_register
