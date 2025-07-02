@@ -1,6 +1,5 @@
 # General Purpose Input/Output (GPIO) IP Core
-**Author:** Thammineni Naren Chowdary  
-**Reg No:** 23BEC1118  
+**Author:** Thammineni Naren Chowdary   
 **Branch:** Electronics and Communication Engineering  
 
 ---
