@@ -1,0 +1,58 @@
+`timescale 1ns / 1ps
+
+module tb_aux_in;
+
+    // Declare signals
+    reg         sys_clk;
+    reg         sys_rst;
+    reg  [31:0] aux_in;
+    wire [31:0] aux_i;
+
+    // Instantiate DUT
+    aux_in dut (
+        .sys_clk(sys_clk),
+        .sys_rst(sys_rst),
+        .aux_in(aux_in),
+        .aux_i(aux_i)
+    );
+
+    // Clock generation (10 ns period)
+    initial sys_clk = 0;
+    always #5 sys_clk = ~sys_clk;
+
+    // Stimulus
+    initial begin
+        $display("Starting simulation...");
+
+        // Initial state
+        sys_rst = 1;
+        aux_in  = 32'hA5A5A5A5;
+
+        // Hold reset
+        #12;
+        sys_rst = 0;
+
+        // Apply input changes at clock intervals
+        #10 aux_in = 32'h12345678;  // After reset deassertion
+        #10 aux_in = 32'hFFFFFFFF;
+        #10 aux_in = 32'h00000000;
+
+        // Assert reset again
+        #10 sys_rst = 1;
+        #10 sys_rst = 0;
+
+        // Final input value
+        #10 aux_in = 32'hDEADBEEF;
+
+        #20;
+        $finish;
+    end
+
+    // Monitor changes
+    initial begin
+        $monitor("Time=%0t | RST=%b | aux_in=%h | aux_i=%h", 
+                  $time, sys_rst, aux_in, aux_i);
+    end
+
+endmodule
+

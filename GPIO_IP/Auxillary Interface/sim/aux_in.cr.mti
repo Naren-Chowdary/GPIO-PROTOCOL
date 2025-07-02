@@ -1,0 +1,15 @@
+{C:/Users/csn4a/OneDrive/Desktop/GPIO_IP/Auxillary Interface/tb/tb_aux_in.v} {1 {vlog -work work -stats=none {C:\Users\csn4a\OneDrive\Desktop\GPIO_IP\Auxillary Interface\tb\tb_aux_in.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_aux_in
+
+Top level modules:
+	tb_aux_in
+
+} {} {}} {C:/Users/csn4a/OneDrive/Desktop/GPIO_IP/Auxillary Interface/rtl/aux_in.v} {1 {vlog -work work -stats=none {C:/Users/csn4a/OneDrive/Desktop/GPIO_IP/Auxillary Interface/rtl/aux_in.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module aux_in
+
+Top level modules:
+	aux_in
+
+} {} {}}

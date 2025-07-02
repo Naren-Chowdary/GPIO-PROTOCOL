@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1
+vaux_in
+Z0 !s110 1750402621
+!i10b 1
+!s100 V1k`a020R]gOTdj:oFOfN1
+I7gUaO=9RdHod11BIdILZW2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/csn4a/OneDrive/Desktop/GPIO_IP/Auxillary Interface/sim
+w1750399204
+8C:/Users/csn4a/OneDrive/Desktop/GPIO_IP/Auxillary Interface/rtl/aux_in.v
+FC:/Users/csn4a/OneDrive/Desktop/GPIO_IP/Auxillary Interface/rtl/aux_in.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1750402621.000000
+!s107 C:/Users/csn4a/OneDrive/Desktop/GPIO_IP/Auxillary Interface/rtl/aux_in.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/csn4a/OneDrive/Desktop/GPIO_IP/Auxillary Interface/rtl/aux_in.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vtb_aux_in
+R0
+!i10b 1
+!s100 L98o=A8Dg2]YQcJ;f:<RM2
+IA`2H=:cN743lh^<I0:=XN1
+R1
+R2
+w1750399157
+8C:\Users\csn4a\OneDrive\Desktop\GPIO_IP\Auxillary Interface\tb\tb_aux_in.v
+FC:\Users\csn4a\OneDrive\Desktop\GPIO_IP\Auxillary Interface\tb\tb_aux_in.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:\Users\csn4a\OneDrive\Desktop\GPIO_IP\Auxillary Interface\tb\tb_aux_in.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\csn4a\OneDrive\Desktop\GPIO_IP\Auxillary Interface\tb\tb_aux_in.v|
+!i113 1
+R5
+R6
