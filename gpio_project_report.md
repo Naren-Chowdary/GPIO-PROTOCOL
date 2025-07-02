@@ -8,6 +8,8 @@
 
 This project presents a 32-bit **GPIO IP Core** designed for integration in SoC environments. It conforms to the **OpenCores GPIO v1.2** specification and supports the **AMBA APB (Advanced Peripheral Bus)** interface.
 
+![image](https://github.com/user-attachments/assets/8922776f-faef-45ec-ad75-4ca7b1f56cb1)
+
 The core includes:
 - Configurable direction control
 - Data registers
@@ -27,24 +29,33 @@ The core includes:
 ### 🧹 Submodules
 
 #### 1. APB Slave Interface
+![image](https://github.com/user-attachments/assets/5995e74f-81d9-4921-87c3-618477ed3fcd)
+
 - Implements a 3-state FSM: IDLE, SETUP, ENABLE
 - Handles APB signals: `psel`, `penable`, `pwrite`, `paddr`, `pwdata`
 - Generates `gpio_we`, `gpio_dat_i`, and `gpio_addr`
 - Outputs `irq`, `sysclk`, and `sysrst`
 
-**Simulation using ModelSim:**  
+**Simulation using ModelSim:** 
+![image](https://github.com/user-attachments/assets/15fee3c6-76ea-4586-87ef-fe2f7cad9e45)
+
 Waveform shows the transaction sequence:
 - Write access to register at 0x04 with data 0x12345678
 - Read access from register at 0x04 after driving it
 
 **Synthesis using Quartus Prime:** Successfully synthesized for Cyclone V
+![image](https://github.com/user-attachments/assets/2cc8dede-e944-4abe-bb72-8794f462a657)
 
 #### 2. GPIO Register Block
+![image](https://github.com/user-attachments/assets/ab02705e-803e-478d-bb2b-601926b9db48)
+
 - Implements all registers as per OpenCores GPIO spec
 - Registers include: `RGPIO_OUT`, `RGPIO_IN`, `RGPIO_OE`, `RGPIO_INTE`, `RGPIO_PTRIG`, `RGPIO_AUX`, `RGPIO_CTRL`, `RGPIO_INTS`, `RGPIO_ECLK`, `RGPIO_NEC`
 - Responsible for generating `gpio_inta_o` interrupt signal
 
 **Simulation using ModelSim:**  
+![image](https://github.com/user-attachments/assets/71f7b0db-ff15-4cb1-acfd-4ecae480a49b)
+
 Waveform includes:
 - Writing to output register `RGPIO_OUT`
 - Enabling output using `RGPIO_OE`
@@ -52,35 +63,47 @@ Waveform includes:
 - Reading interrupt status from `RGPIO_INTS`
 
 **Synthesis using Quartus Prime:** Synthesized successfully with all logic mapped
+![image](https://github.com/user-attachments/assets/d938b913-8c83-41de-8e1e-c12195ba10e3)
 
 #### 3. AUX Input Interface
+![image](https://github.com/user-attachments/assets/4d99a32b-92cb-4a8e-bc18-36c0115d4f53)
+
 - Synchronizes 32-bit asynchronous input to `sys_clk`
 - Eliminates metastability using internal register
 - Used for external override of output
 
-**Simulation using ModelSim:**  
+**Simulation using ModelSim:**
+![image](https://github.com/user-attachments/assets/d32a60a2-965e-4c83-97f9-41a36925f680)
+
 Waveform demonstrates:
 - Glitch-free synchronization of `aux_in` to `aux_i`
 - Changes in input appear on output only after a clock edge
 
 **Synthesis using Quartus Prime:** Clean synthesis and minimal resource usage
+![image](https://github.com/user-attachments/assets/60bfe9b4-10d6-4be4-880e-641af716aa48)
 
 #### 4. I/O Interface
+![image](https://github.com/user-attachments/assets/24eb9f8b-5478-4eeb-85ee-9c09e719377f)
+
 - Manages 32-bit bidirectional `pad_io` lines
 - Tristate control using `gpio_oe`
 - Drives `gpio_data_out` or reads to `gpio_data_in`
 
 **Simulation using ModelSim:**  
+![image](https://github.com/user-attachments/assets/f8480dc7-b13c-4866-8037-394789f3d5bd)
+
 Waveform shows:
 - Output drive when `gpio_oe` = 1
 - High-Z state and external pad value sampling when `gpio_oe` = 0
 - Bidirectional pad interaction is confirmed
 
 **Synthesis using Quartus Prime:** All buffers and assignments mapped successfully
+![image](https://github.com/user-attachments/assets/b778845f-076e-4071-95af-d5fcd78814a1)
 
 ---
 
 ### 📊 Top-Level Module
+![image](https://github.com/user-attachments/assets/67a1b00a-abea-4469-aad3-06c5641b5a23)
 
 The `gpio_top` integrates all submodules:
 - Connects APB, AUX, Register, and I/O Interface
@@ -88,6 +111,8 @@ The `gpio_top` integrates all submodules:
 - Drives external pads and receives interrupts
 
 **Simulation using ModelSim:**  
+![image](https://github.com/user-attachments/assets/60e67cb1-b2da-470a-824a-2e71417e22a3)
+
 Waveform includes:
 - Writing values to registers via APB
 - External pad driving `pad_driver` and `pad_drive_en`
@@ -95,6 +120,7 @@ Waveform includes:
 - Readback of `RGPIO_INTS` confirms interrupt occurrence
 
 **Synthesis using Quartus Prime:** Integrated system successfully synthesized for Cyclone V
+![image](https://github.com/user-attachments/assets/bfd05d82-e5be-4c0e-910d-6b7db9ed9a66)
 
 ---
 
