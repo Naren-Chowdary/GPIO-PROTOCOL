@@ -1,0 +1,15 @@
+vsim -gui work.tb_gpio_top
+# vsim -gui work.tb_gpio_top 
+# Start time: 16:56:25 on Jun 30,2025
+# Loading work.tb_gpio_top
+# Loading work.gpio_top
+# Loading work.APB_slave_interface
+# Loading work.aux_in
+# Loading work.GPIO_register
+# Loading work.interface
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'gpio_dat_o'. The port definition is at: C:/Users/csn4a/OneDrive/Desktop/GPIO_IP/APB Slave Interface/rtl/APB_slave_interface.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_gpio_top/dut/u_apb_slave File: C:/Users/csn4a/OneDrive/Desktop/GPIO_IP/Top Module/rtl/gpio_top.v Line: 36
+add wave -position insertpoint sim:/tb_gpio_top/*
+run
+# End time: 16:57:35 on Jun 30,2025, Elapsed time: 0:01:10
+# Errors: 0, Warnings: 2
