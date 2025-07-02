@@ -1,0 +1,24 @@
+# Compile of GPIO.v was successful.
+# Compile of tb_GPIO.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_GPIO_register
+# vsim -gui work.tb_GPIO_register 
+# Start time: 14:29:02 on Jun 20,2025
+# Loading work.tb_GPIO_register
+# Loading work.GPIO_register
+add wave -position insertpoint sim:/tb_GPIO_register/*
+quit -sim
+# End time: 14:29:22 on Jun 20,2025, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 6
+# Compile of GPIO.v was successful.
+# Compile of tb_GPIO.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_GPIO_register
+# vsim -gui work.tb_GPIO_register 
+# Start time: 14:29:39 on Jun 20,2025
+# Loading work.tb_GPIO_register
+# Loading work.GPIO_register
+add wave -r sim:/tb_GPIO_register/*
+run
+# End time: 14:49:40 on Jun 20,2025, Elapsed time: 0:20:01
+# Errors: 0, Warnings: 2

@@ -1,0 +1,58 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vAPB_slave_interface
+Z0 !s110 1750408047
+!i10b 1
+!s100 meY_5zU@2fYTI_GW7AXXC0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IKX4li7XJbAOVoH>^meRUo0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/csn4a/OneDrive/Desktop/GPIO_IP/APB Slave Interface/sim
+w1750406244
+8C:/Users/csn4a/OneDrive/Desktop/GPIO_IP/APB Slave Interface/rtl/APB_slave_interface.v
+FC:/Users/csn4a/OneDrive/Desktop/GPIO_IP/APB Slave Interface/rtl/APB_slave_interface.v
+!i122 0
+L0 1 84
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1750408047.000000
+!s107 C:/Users/csn4a/OneDrive/Desktop/GPIO_IP/APB Slave Interface/rtl/APB_slave_interface.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/csn4a/OneDrive/Desktop/GPIO_IP/APB Slave Interface/rtl/APB_slave_interface.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@a@p@b_slave_interface
+vapb_slave_tb
+R0
+!i10b 1
+!s100 RXM8A:3>9JN>FUCCUZ:@D0
+R1
+Id>=cWUJFMSO4QB>ZFm4HU3
+R2
+R3
+w1750406300
+8C:/Users/csn4a/OneDrive/Desktop/GPIO_IP/APB Slave Interface/tb/tb_apb.v
+FC:/Users/csn4a/OneDrive/Desktop/GPIO_IP/APB Slave Interface/tb/tb_apb.v
+!i122 1
+L0 2 95
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/csn4a/OneDrive/Desktop/GPIO_IP/APB Slave Interface/tb/tb_apb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/csn4a/OneDrive/Desktop/GPIO_IP/APB Slave Interface/tb/tb_apb.v|
+!i113 1
+R6
+R7
